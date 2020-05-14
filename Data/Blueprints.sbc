@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>codecat_comet_missile</SubtypeId>
+			</Id>
+			<DisplayName>[codecat] Comet Missile</DisplayName>
+			<Icon>Textures\GUI\Icons\Ammo\codecat_comet_missile.dds</Icon>
+			<Prerequisites>
+				<Item Amount="200" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Silicon" />
+				<Item Amount="100" TypeId="Ingot" SubtypeId="Uranium" />
+				<Item Amount="100" TypeId="Ingot" SubtypeId="Platinum" />
+				<Item Amount="200" TypeId="Ingot" SubtypeId="Magnesium" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="AmmoMagazine" SubtypeId="codecat_comet_missile" />
+			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>codecat_ripper_projectile</SubtypeId>
+			</Id>
+			<DisplayName>[codecat] Ripper Projectile</DisplayName>
+			<Icon>Textures\GUI\Icons\Ammo\codecat_ripper_projectile.dds</Icon>
+			<Prerequisites>
+				<Item Amount="300" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="50" TypeId="Ingot" SubtypeId="Silicon" />
+				<Item Amount="100" TypeId="Ingot" SubtypeId="Uranium" />
+				<Item Amount="100" TypeId="Ingot" SubtypeId="Platinum" />
+				<Item Amount="200" TypeId="Ingot" SubtypeId="Magnesium" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="AmmoMagazine" SubtypeId="codecat_ripper_projectile" />
+			<BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+		</Blueprint>
+	</Blueprints>
+</Definitions>

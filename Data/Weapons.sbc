@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Weapons>
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>codecat_comet_missile</SubtypeId>
+			</Id>
+			<MissileAmmoData RateOfFire="40" ShootSoundName="WepTurretMissileShot" ShotsInBurst="2" />
+			<ReleaseTimeAfterFire>4000</ReleaseTimeAfterFire>
+			<AmmoMagazines>
+				<AmmoMagazine Subtype="codecat_comet_missile" />
+			</AmmoMagazines>
+			<ReloadTime>10000</ReloadTime>
+		</Weapon>
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>codecat_ripper_projectile</SubtypeId>
+			</Id>
+			<MissileAmmoData RateOfFire="480" ShootSoundName="ArcWep_codecat_ripper_mk1" ShotsInBurst="6" />
+			<ReleaseTimeAfterFire>4000</ReleaseTimeAfterFire>
+			<AmmoMagazines>
+				<AmmoMagazine Subtype="codecat_ripper_projectile" />
+			</AmmoMagazines>
+			<ReloadTime>20000</ReloadTime>
+		</Weapon>
+	</Weapons>
+</Definitions>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>cc_jumpdrive_mk1_Large</SubtypeId>
+      </Id>
+      <DisplayName>cc Jumpdrive mk1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\cc_jumpdrive_mk1.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="7" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\cc_jumpdrive_mk1\cc_jumpdrive_mk1_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="70" />
+        <Component Subtype="LargeTube" Count="140" />
+        <Component Subtype="MetalGrid" Count="175" />
+        <Component Subtype="GravityGenerator" Count="70" />
+        <Component Subtype="Detector" Count="70" />
+        <Component Subtype="PowerCell" Count="420" />
+        <Component Subtype="Superconductor" Count="3500" />
+        <Component Subtype="Computer" Count="1050" />
+        <Component Subtype="Construction" Count="140" />
+        <Component Subtype="SteelPlate" Count="70" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	<MountPoints>
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+		<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+    </MountPoints>
+      <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_jumpdrive_mk1\cc_jumpdrive_mk1_Large_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_jumpdrive_mk1\cc_jumpdrive_mk1_Large_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_jumpdrive_mk1\cc_jumpdrive_mk1_Large_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>cc_jumpdrive_mk1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>160</BuildTimeSeconds>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>120</RequiredPowerInput>
+      <PowerNeededForJump>12</PowerNeededForJump>
+      
+      <MaxJumpDistance>8000000</MaxJumpDistance>
+      <MaxJumpMass>4375000</MaxJumpMass>
+  </Definition>
+  </CubeBlocks>
+</Definitions>

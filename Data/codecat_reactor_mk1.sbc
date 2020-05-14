@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+			<Id>
+				<TypeId>Reactor</TypeId>
+				<SubtypeId>cc_reactor_mk1_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc Reactor mk1 Large</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_reactor_mk1.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="5" z="3" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_reactor_mk1\cc_reactor_mk1_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1000" />
+				<Component Subtype="Construction" Count="270" />
+				<Component Subtype="MetalGrid" Count="240" />
+				<Component Subtype="LargeTube" Count="140" />
+				<Component Subtype="Superconductor" Count="300" />
+				<Component Subtype="Reactor" Count="5000" />
+				<Component Subtype="Motor" Count="120" />
+                <Component Subtype="BulletproofGlass" Count="40" />                
+				<Component Subtype="Computer" Count="175" />
+				<Component Subtype="SteelPlate" Count="500" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_reactor_mk1\cc_reactor_mk1_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_reactor_mk1\cc_reactor_mk1_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_reactor_mk1\cc_reactor_mk1_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>cc_reactor_mk1</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>500</BuildTimeSeconds>
+			<ResourceSourceGroup>Reactors</ResourceSourceGroup>
+			<MaxPowerOutput>5000</MaxPowerOutput>
+			<InventorySize>
+				<X>2</X>
+				<Y>2</Y>
+				<Z>2</Z>
+			</InventorySize>
+			<FuelId>
+				<TypeId>Ingot</TypeId>
+				<SubtypeId>Uranium</SubtypeId>
+			</FuelId>
+			<PrimarySound>ShipLrgNuclearLrg</PrimarySound>
+			<DamageEffectId>210</DamageEffectId>
+			<DamagedSound>ParticleReactor</DamagedSound>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

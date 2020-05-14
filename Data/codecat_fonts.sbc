@@ -1,0 +1,2347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		
+		<!-- font used : OCR A Std Regular -->
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_a_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font A</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_a.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_a_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_a</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_a_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font A</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_a.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_a_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_a</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_b_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font B</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_b.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_b_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_b</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_b_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font B</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_b.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_b_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_b</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_c_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font C</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_c.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_c_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_c</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_c_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font C</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_c.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_c_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_c</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_d_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font D</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_d.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_d_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_d</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_d_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font D</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_d.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_d_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_d</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_e_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font E</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_e.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_e_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_e</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_e_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font E</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_e.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_e_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_e</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_f_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font F</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_f.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_f_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_f</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_f_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font F</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_f.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_f_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_f</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_g_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font G</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_g.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_g_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_g</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_g_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font G</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_g.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_g_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_g</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_h_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font H</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_h.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_h_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_h</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_h_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font H</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_h.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_h_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_h</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_i_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font I</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_i.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_i_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_i</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_i_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font I</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_i.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_i_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_i</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_j_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font J</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_j.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_j_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_j</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_j_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font J</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_j.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_j_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_j</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_k_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font K</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_k.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_k_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_k</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_k_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font K</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_k.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_k_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_k</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_l_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font L</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_l.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_l_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_l</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_l_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font L</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_l.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_l_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_l</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_m_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font M</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_m.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_m_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_m</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_m_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font M</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_m.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_m_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_m</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_n_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font N</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_n.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_n_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_n</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_n_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font N</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_n.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_n_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_n</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_o_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font O</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_o.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_o_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_o</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_o_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font O</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_o.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_o_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_o</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_p_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font P</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_p.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_p_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_p</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_p_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font P</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_p.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_p_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_p</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_q_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font Q</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_q.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_q_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_q</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_q_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font Q</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_q.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_q_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_q</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_r_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font R</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_r.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_r_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_r</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_r_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font R</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_r.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_r_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_r</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_s_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font S</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_s.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_s_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_s</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_s_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font S</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_s.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_s_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_s</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_t_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font T</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_t.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_t_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_t</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_t_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font T</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_t.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_t_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_t</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_u_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font U</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_u.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_u_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_u</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_u_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font U</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_u.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_u_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_u</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_v_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font V</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_v.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_v_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_v</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_v_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font V</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_v.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_v_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_v</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_w_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font W</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_w.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_w_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_w</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_w_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font W</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_w.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_w_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_w</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_x_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font X</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_x.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_x_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_x</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_x_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font X</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_x.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_x_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_x</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_y_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font Y</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_y.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_y_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_y</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_y_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font Y</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_y.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_y_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_y</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_z_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font Z</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_z.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_z_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_z</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_z_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font Z</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_z.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_z_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_z</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_0_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 0</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_0.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_0_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_0</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_0_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 0</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_0.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_0_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_0</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_1_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 1</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_1.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_1_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_1</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_1_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 1</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_1.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_1_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_1</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_2_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 2</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_2.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_2_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_2</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_2_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 2</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_2.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_2_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_2</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_3_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 3</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_3.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_3_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_3</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_3_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 3</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_3.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_3_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_3</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_4_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 4</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_4.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_4_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_4</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_4_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 4</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_4.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_4_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_4</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_5_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 5</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_5.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_5_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_5</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_5_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 5</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_5.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_5_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_5</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_6_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 6</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_6.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_6_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_6</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_6_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 6</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_6.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_6_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_6</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_7_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 7</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_7.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_7_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_7</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_7_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 7</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_7.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_7_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_7</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_8_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 8</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_8.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_8_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_8</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_8_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 8</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_8.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_8_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_8</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_9_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font 9</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_9.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_9_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_9</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_9_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font 9</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_9.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_9_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_9</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_aa_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font AA</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_aa.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_aa_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_aa</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_aa_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font AA</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_aa.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_aa_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_aa</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_aaa_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font AAA</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_aaa.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_aaa_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_aaa</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_aaa_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font AAA</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_aaa.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_aaa_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_aaa</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_oo_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc font OO</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_oo.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_fonts\cc_font_oo_Large.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="2" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_oo</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_fonts\cc_font_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_font_oo_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc font OO</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_font_oo.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_fonts\cc_font_oo_Small.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BlockPairName>cc_font_oo</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_fonts\cc_font_Small_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildTimeSeconds>1</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+			<MirroringX>Z</MirroringX>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

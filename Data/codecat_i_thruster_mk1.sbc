@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>codecat_imprimis_thruster_mk1</SubtypeId>
+			</Id>
+			<DisplayName>cc I thruster mk1</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_i_thruster_mk1.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="5" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_i_thruster_mk1\cc_i_thruster_mk1_Large.mwm</Model>
+			<ThrusterType>Ion</ThrusterType>
+			<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+			<Components>
+				<Component Subtype="SteelPlate" Count="300" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="LargeTube" Count="80" />
+                <Component Subtype="BulletproofGlass" Count="20" />
+                <Component Subtype="Computer" Count="80" />
+				<Component Subtype="Construction" Count="60" />
+				<Component Subtype="Thrust" Count="900" />
+				<Component Subtype="SteelPlate" Count="150" />
+			</Components>
+			<CriticalComponent Subtype="Thrust" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="3.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="3.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="5.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="5.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_i_thruster_mk1\cc_i_thruster_mk1_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_i_thruster_mk1\cc_i_thruster_mk1_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_i_thruster_mk1\cc_i_thruster_mk1_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>cc_i_thruster_mk1</BlockPairName>
+			<Center x="1" y="1" z="3" />
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>60</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>8000000</ForceMagnitude>
+			<MaxPowerConsumption>66.6</MaxPowerConsumption>
+			<MinPowerConsumption>0.000002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+			<FlameDamageLengthScale>2.4</FlameDamageLengthScale>
+			<FlameLengthScale>2.15</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.64</X>
+				<Y>1</Y>
+				<Z>1</Z>
+				<W>0.75</W>
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.64</X>
+				<Y>1</Y>
+				<Z>1</Z>
+				<W>1</W>
+			</FlameFullColor>
+			<FlamePointMaterial>codecatZebraThrusterPointMaterial</FlamePointMaterial>
+			<FlameLengthMaterial>codecatZebraThrusterFlameLenghtMaterial</FlameLengthMaterial>
+			<FlameGlareMaterial>codecatZebraThrusterFlameGlareMaterial</FlameGlareMaterial>
+			<FlameVisibilityDistance>700</FlameVisibilityDistance>
+			<FlameGlareSize>0.779</FlameGlareSize>
+			<FlameGlareQuerySize>3</FlameGlareQuerySize>
+			<PrimarySound>LrgShipLrgJet</PrimarySound>
+			<DamageEffectId>213</DamageEffectId>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

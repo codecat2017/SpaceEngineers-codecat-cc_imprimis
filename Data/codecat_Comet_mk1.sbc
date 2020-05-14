@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+			<Id>
+				<TypeId>LargeMissileTurret</TypeId>
+				<SubtypeId>cc_comet_mk1_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc Comet MK 1</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_comet_mk1.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="4" y="3" z="4" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_comet_mk1\cc_comet_mk1_Large.mwm</Model>
+			<UseModelIntersection>true</UseModelIntersection>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="Construction" Count="10" />
+				<Component Subtype="MetalGrid" Count="25" />
+				<Component Subtype="LargeTube" Count="16" />
+				<Component Subtype="Motor" Count="26" />
+				<Component Subtype="Construction" Count="40" />
+				<Component Subtype="Display" Count="4" />
+				<Component Subtype="BulletproofGlass" Count="10" />
+				<Component Subtype="Computer" Count="22" />
+				<Component Subtype="SteelPlate" Count="120" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BlockPairName>cc_comet_mk1</BlockPairName>
+			<MirroringZ>Y</MirroringZ>
+			<MirroringY>Z</MirroringY>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>80</BuildTimeSeconds>
+			<OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+			<WeaponDefinitionId Subtype="codecat_comet_missile" />
+			<InventoryMaxVolume>0.8</InventoryMaxVolume>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\cc_comet_mk1\cc_comet_mk1_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\cc_comet_mk1\cc_comet_mk1_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_comet_mk1\cc_comet_mk1_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="4.00" EndY="4.00" />
+			</MountPoints>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<DamageEffectId>213</DamageEffectId>
+			<MinElevationDegrees>10</MinElevationDegrees>
+			<MaxElevationDegrees>64</MaxElevationDegrees>
+			<MinAzimuthDegrees>-180</MinAzimuthDegrees>
+			<MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+			<IdleRotation>true</IdleRotation>
+			<MaxRangeMeters>5000</MaxRangeMeters>
+			<RotationSpeed>0.0002</RotationSpeed>
+			<ElevationSpeed>0.0002</ElevationSpeed>
+			<AiEnabled>true</AiEnabled>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

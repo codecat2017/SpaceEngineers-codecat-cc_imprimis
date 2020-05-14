@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_interior1_Large</SubtypeId>
+			</Id>
+			<DisplayName>cc Interior Block 1</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_interior1.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\cc_interior\cc_interior1_Large.mwm</Model>
+			<Components>
+				<Component Subtype="Girder" Count="8" />
+				<Component Subtype="SteelPlate" Count="6" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_interior\cc_interior1_Large_Constr1.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>cc_interior1</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>5</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>cc_interior1_Small</SubtypeId>
+			</Id>
+			<DisplayName>cc Interior Block 1</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\cc_interior1.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Small\cc_interior\cc_interior1_Small.mwm</Model>
+			<Components>
+				<Component Subtype="Girder" Count="4" />
+				<Component Subtype="SteelPlate" Count="3" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\cc_interior\cc_interior1_Small_Constr1.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>cc_interior1</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>2</BuildTimeSeconds>
+			<IsAirTight>true</IsAirTight>
+		</Definition>
+
+
+
+        <Definition>
+          <Id>
+            <TypeId>TerminalBlock</TypeId>
+            <SubtypeId>cc_terminal_v1_Large</SubtypeId>
+          </Id>
+          <DisplayName>cc Terminal v1</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\cc_terminal_v1.dds</Icon>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\cc_interior\cc_terminal_v1_Large.mwm</Model>
+          <Components>
+            <Component Subtype="Construction" Count="1" />
+            <Component Subtype="Computer" Count="1" />
+            <Component Subtype="Display" Count="1" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+            <MountPoint Side="Front" StartX="0.31" StartY="0.31" EndX="0.69" EndY="0.69" />
+          </MountPoints>
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_interior\cc_terminal_v1_Large_Constr1.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>cc_terminal_v1</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>3</BuildTimeSeconds>
+        </Definition>
+
+
+
+<!-- Hallways [START] -->
+
+        <Definition>
+          <Id>
+            <TypeId>CubeBlock</TypeId>
+            <SubtypeId>cc_hallway1_Large</SubtypeId>
+          </Id>
+          <DisplayName>cc Hallway 1</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\cc_hallway1.dds</Icon>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="2" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\cc_interior\cc_hallway1_Large.mwm</Model>
+          <Components>    
+            <Component Subtype="InteriorPlate" Count="40" />
+            <Component Subtype="Construction" Count="16" />
+            <Component Subtype="InteriorPlate" Count="10" />
+            <Component Subtype="Construction" Count="4" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+          </MountPoints>
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_interior\cc_hallway1_Large_Constr1.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>cc_hallway1</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>3</BuildTimeSeconds>
+        </Definition>
+
+
+
+
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>cc_hallway2_Large</SubtypeId>
+      </Id>
+      <DisplayName>cc Hallway 2</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\cc_hallway2.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\cc_interior\cc_hallway2_Large.mwm</Model>
+      <Components>
+            <Component Subtype="InteriorPlate" Count="40" />
+            <Component Subtype="Construction" Count="16" />
+            <Component Subtype="InteriorPlate" Count="10" />
+            <Component Subtype="Construction" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_interior\cc_hallway2_Large_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>cc_hallway2</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <LightRadius Min="2" Max="20" Default="5" />
+      <LightReflectorRadius Min="1" Max="160" Default="120" />
+      <LightFalloff Min="1" Max="3" Default="1.5" />
+      <LightIntensity Min="0.5" Max="5" Default="1" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.001</RequiredPowerInput>
+      <LightGlare>NoLightGlare</LightGlare>
+      <ReflectorTexture>Textures\Lights\cc_lights_1_large.dds</ReflectorTexture>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+
+
+
+
+
+
+
+
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>cc_hallway3_Large</SubtypeId>
+      </Id>
+      <DisplayName>cc Hallway 3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\cc_hallway3.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\cc_interior\cc_hallway3_Large.mwm</Model>
+      <Components>
+            <Component Subtype="InteriorPlate" Count="50" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="InteriorPlate" Count="15" />
+            <Component Subtype="Construction" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_interior\cc_hallway3_Large_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>cc_hallway3</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <LightRadius Min="2" Max="20" Default="5" />
+      <LightReflectorRadius Min="1" Max="160" Default="120" />
+      <LightFalloff Min="1" Max="3" Default="1.5" />
+      <LightIntensity Min="0.5" Max="5" Default="1" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.001</RequiredPowerInput>
+      <LightGlare>NoLightGlare</LightGlare>
+      <ReflectorTexture>Textures\Lights\cc_lights_1_large.dds</ReflectorTexture>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>cc_hallway4_Large</SubtypeId>
+      </Id>
+      <DisplayName>cc Hallway 4</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\cc_hallway4.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\cc_interior\cc_hallway4_Large.mwm</Model>
+      <Components>
+            <Component Subtype="InteriorPlate" Count="50" />
+            <Component Subtype="Construction" Count="20" />
+            <Component Subtype="InteriorPlate" Count="15" />
+            <Component Subtype="Construction" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_interior\cc_hallway4_Large_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>cc_hallway4</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <LightRadius Min="2" Max="20" Default="5" />
+      <LightReflectorRadius Min="1" Max="160" Default="120" />
+      <LightFalloff Min="1" Max="3" Default="1.5" />
+      <LightIntensity Min="0.5" Max="5" Default="1" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.001</RequiredPowerInput>
+      <LightGlare>NoLightGlare</LightGlare>
+      <ReflectorTexture>Textures\Lights\cc_lights_1_large.dds</ReflectorTexture>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+    </Definition>
+
+
+
+
+
+		
+		
+        <Definition>
+          <Id>
+            <TypeId>CubeBlock</TypeId>
+            <SubtypeId>cc_hallway5_Large</SubtypeId>
+          </Id>
+          <DisplayName>cc Hallway 5</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\cc_hallway5.dds</Icon>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="2" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\cc_interior\cc_hallway5_Large.mwm</Model>
+          <Components>
+            <Component Subtype="InteriorPlate" Count="40" />
+            <Component Subtype="Construction" Count="16" />
+            <Component Subtype="InteriorPlate" Count="10" />
+            <Component Subtype="Construction" Count="4" />
+          </Components>
+          <CriticalComponent Subtype="Construction" Index="0" />
+          <MountPoints>
+          </MountPoints>
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\cc_interior\cc_hallway5_Large_Constr1.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>cc_hallway5</BlockPairName>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>3</BuildTimeSeconds>
+        </Definition>		
+
+
+
+
+
+	</CubeBlocks>
+</Definitions>

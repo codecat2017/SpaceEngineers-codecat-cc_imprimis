@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Ammos>
+		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>codecat_comet_missile</SubtypeId>
+			</Id>
+			<BasicProperties>
+				<DesiredSpeed>3500</DesiredSpeed>
+				<SpeedVariance>0</SpeedVariance>
+				<MaxTrajectory>5000</MaxTrajectory>
+				<IsExplosive>true</IsExplosive>
+				<BackkickForce>4000</BackkickForce>
+			</BasicProperties>
+			<MissileProperties>
+				<MissileMass>700</MissileMass>
+				<MissileExplosionRadius>40</MissileExplosionRadius>
+				<MissileModelName>Models\Weapons\codecat_comet_missile\codecat_comet_missile.mwm</MissileModelName>
+				<MissileAcceleration>300</MissileAcceleration>
+				<MissileInitialSpeed>10</MissileInitialSpeed>
+				<MissileSkipAcceleration>false</MissileSkipAcceleration>
+				<MissileExplosionDamage>20000</MissileExplosionDamage>
+			</MissileProperties>
+		</Ammo>
+		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>codecat_ripper_projectile</SubtypeId>
+			</Id>
+			<BasicProperties>
+				<DesiredSpeed>4000</DesiredSpeed>
+				<SpeedVariance>0</SpeedVariance>
+				<MaxTrajectory>5000</MaxTrajectory>
+				<IsExplosive>true</IsExplosive>
+				<BackkickForce>4000</BackkickForce>
+			</BasicProperties>
+			<MissileProperties>
+				<MissileMass>800</MissileMass>
+				<MissileExplosionRadius>10</MissileExplosionRadius>
+				<MissileModelName>Models\Weapons\codecat_ripper_projectile\codecat_ripper_projectile.mwm</MissileModelName>
+				<MissileAcceleration>4000</MissileAcceleration>
+				<MissileInitialSpeed>4000</MissileInitialSpeed>
+				<MissileSkipAcceleration>false</MissileSkipAcceleration>
+				<MissileExplosionDamage>30000</MissileExplosionDamage>
+			</MissileProperties>
+		</Ammo>
+	</Ammos>
+</Definitions>

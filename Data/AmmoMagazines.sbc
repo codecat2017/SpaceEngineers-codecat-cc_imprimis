@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<AmmoMagazines>
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>codecat_comet_missile</SubtypeId>
+			</Id>
+			<DisplayName>[codecat] Comet Missile</DisplayName>
+			<Icon>Textures\GUI\Icons\Ammo\codecat_comet_missile.dds</Icon>
+			<Size>
+				<X>2.0</X>
+				<Y>0.7</Y>
+				<Z>0.7</Z>
+			</Size>
+			<Mass>700</Mass>
+			<Volume>980</Volume>
+			<Model>Models\Weapons\codecat_comet_missile\codecat_comet_missile.mwm</Model>
+			<PhysicalMaterial>Ammo</PhysicalMaterial>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="codecat_comet_missile" />
+		</AmmoMagazine>
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>codecat_ripper_projectile</SubtypeId>
+			</Id>
+			<DisplayName>[codecat] Ripper Projectile</DisplayName>
+			<Icon>Textures\GUI\Icons\Ammo\codecat_ripper_projectile.dds</Icon>
+			<Size>
+				<X>2.0</X>
+				<Y>0.55</Y>
+				<Z>0.55</Z>
+			</Size>
+			<Mass>800</Mass>
+			<Volume>605</Volume>
+			<Model>Models\Weapons\codecat_ripper_projectile\codecat_ripper_projectile.mwm</Model>
+			<PhysicalMaterial>Ammo</PhysicalMaterial>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="codecat_ripper_projectile" />
+		</AmmoMagazine>
+	</AmmoMagazines>
+</Definitions>
